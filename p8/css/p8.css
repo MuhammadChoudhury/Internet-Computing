@@ -1,0 +1,100 @@
+.test {
+    color:green !important;
+}
+
+.masthead {
+    background-image: url("https://c.pxhere.com/images/34/c8/619932b8b89cf09feb0278e64624-1589287.jpg!d") !important;
+}
+
+.masthead h1,h2 {
+    text-shadow: black;
+
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.white {
+    color: white !important;
+}
+
+#contact {
+    height: 20% !important;
+}
+
+.rounded-circle {
+    height: 400px !important;
+    width: 400px !important;
+}
+
+.rounded-pill {
+    color: white !important;
+    border-color: white !important;
+}
+
+.rounded-pill:hover {
+    color: black !important;
+    border-color: black !important;
+    background-color: white !important;
+}
+
+.container {
+    width: 100% !important;
+}
+
+.zoom {
+  padding: 1px;
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.this {
+    
+}
+
+.hov {
+    color: green !important;
+}
+
+.invert {
+    background-color: black !important;
+}
+
+.foot {
+    background-color: white !important;
+}
+
+a:link {
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.masthead {
+    background-image: url("https://c.pxhere.com/images/34/c8/619932b8b89cf09feb0278e64624-1589287.jpg!d") !important;
+}
+
