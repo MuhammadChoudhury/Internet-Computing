@@ -1,0 +1,141 @@
+html, body {
+    background-color: rebeccapurple !important;
+    width: 100%;
+}
+
+.container, .features-icons, .bg-light, .text-center {  
+    background-color: rebeccapurple!important;
+    color: yellow;
+}
+
+.invert{
+    
+    background-color: yellow!important;
+    color: rebeccapurple !important;
+    border-color: rebeccapurple!important;
+
+}
+
+
+.button {
+    border-color: yellow !important;
+}
+
+.yell {
+    color: yellow !important;
+}
+
+.textbox {
+    color: black;
+}
+
+a:link {
+  color: yellow;
+}
+
+/* visited link */
+a:visited {
+  color: yellow;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+.color{    
+    background-color: rebeccapurple!important;
+    border-color: rebeccapurple;
+    table-layout: fixed;
+width: 100%;
+        height: 100%;
+    border-color: yellow;
+
+}
+
+.button{
+    background-color: rebeccapurple;
+}
+
+td,tr,th  {padding: 1%;}
+
+.box{
+    padding-top: 3% !important;
+    padding-bottom: 3% !important;
+    table-layout: fixed;
+width: 100%;
+        height: 100%;
+        border-color: yellow;
+
+
+}
+
+.top {
+    height: 100%;
+        margin: 0 auto;
+      text-align: center;
+    color: yellow;
+        border-color: yellow;
+
+
+}
+
+
+
+table {
+    background-color: yellow;
+    color: rebeccapurple;
+    table-layout: fixed;
+width: 75% !important;
+    height: 100%;
+        margin: 0 auto;
+        border-color: yellow;
+
+
+}
+
+
+.navbar-custom{
+
+background-color:blue;
+
+}
+
+.nav-link{
+
+color: white;
+
+text-align: right;
+
+}
+
+.nav-link:hover{
+
+color:white;
+
+}
+
+.centered {
+
+position: absolute;
+
+top: 20%;
+
+left: 50%;
+
+transform: translate(-50%, 0%);
+
+}
+
+table{
+width:400px;
+}
+
+table td,th{
+text-align:center;
+}
