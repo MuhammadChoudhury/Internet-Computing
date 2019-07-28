@@ -1,0 +1,71 @@
+.masthead {
+    background-image: url("./img/picDhaka.jpg");
+}
+
+.jungle {
+               background-image: url("./img/picGarden.jpg");
+
+}
+
+.tiger{
+         height: inherit;
+}
+
+.animal{
+         max-height: 270px !important;
+         text-align: top;
+}
+
+.height {
+    height: auto!important;
+    
+    width:  !important;
+}
+
+.up {
+      padding-bottom: 20px;
+}
+
+.opacity {
+           opacity: 1;
+}
+
+.learn{    
+         background-color: rebeccapurple;
+         color: white !important;  
+}
+
+.gap {
+        padding-top: 80px ;
+}
+
+#margin{
+         margin-bottom: 30px !important;
+}
+
+#marginFlag {
+             margin-bottom: 50px;
+}
+
+#padTiger {
+       padding-top: 20px !important;
+}
+
+#padCricket {
+              padding-top: 40px !important;
+              padding-bottom: 40px !important;
+
+}
+
+#endless{
+          padding-top: 60px;
+          text-align: center !important;
+}
+
+#padFlag{
+          padding-bottom: 0px ;
+}
+
+#boat{
+       max-height: 450px;
+}
