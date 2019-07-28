@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="To-Do List" content="">
+  <meta name="Muhammad Choudhury" content="">
+
+  <title>An All-American To-Do List</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/landing-page.min.css" rel="stylesheet">
+  <link href="./css/botstrap.css" rel="stylesheet">
+  <link href="./css/bootstrap-theme.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+  <!-- Masthead -->
+  <header class="masthead text-white text-center">
+    <div class="overtlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5">Happy Fourth of July!</h1>
+        </div>
+        <main id="list" class="todolist" align="center">
+            <h1 class="masthead-content txt-white py-5 py-md-0">To Do List</h1>
+            <section id="enter" class="entry">
+                <input id="add" placeholder="Type here to add things to your list!" size="100">
+            </section>
+            <section id="tasks" class="tasks">
+                <div class="list">
+                <ul id="todo" class="tasklist calm square masthead-content text-white py-5 py-md-0" contenteditable="false"> 
+                </ul>
+                </div>
+            </section>
+            <section id="toggles" class="buttons">
+                <table>
+                    <tr>
+                        <th>
+                           <button class="btn btn-primary right" id="complete">Check/Uncheck All</button>
+                           </th>
+                           <th>
+                           <button class="btn btn-info left" id="edit">Edit Mode</button>
+                           </th>
+                    </tr>
+                </table>
+            </section>
+        </main>
+        
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+          <form>
+            <div class="form-row">
+              <div class="col-12 col-md-9 mb-2 mb-md-0">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+    
+
+  <!-- Icons Grid -->
+  <section class="features-icons backgroundark bg-light text-center">
+    <div class="container ">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="fas fa-flag-usa m-auto color text-primary"></i>
+            </div>
+            <h3 class="text">Check or Uncheck</h3>
+            <p class="lead mb-0 text">You can check an item on the list simply by clicking on it. Clicking on it again will uncheck it. You can also click on the "Check/Uncheck All" button to Check or Uncheck all items on the list. </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="fas fa-list m-auto text text-primary"></i>
+            </div>
+            <h3 class="text">Add and Delete</h3>
+            <p class="lead mb-0 text">Type the item that you want on your list in the input bar. You can delete an item by double clicking on an item. Double-clicking on the "Check/<br>Uncheck" button will delete all items present on the list.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="fas fa-hotdog m-auto text-primary"></i>
+            </div>
+            <h3 class="text">Edit</h3>
+            <p class="lead mb-0 text">Tapping on the "Edit Mode" will enable you to edit any item on the list. Double-clicking on the button will disable edit mode. And don't worry, your list won't be deleted even if you refresh the page.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+      <!-- JavaScript Files -->
+  <script src="./js/thejquery.js"></script>
+  <script src="./js/todo.js"></script>
+
+
+</body>
+
+</html>
