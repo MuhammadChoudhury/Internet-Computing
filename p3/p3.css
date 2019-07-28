@@ -1,0 +1,70 @@
+.overtlay{
+    
+    background-image:url("./img/picCar.jpg") !important;
+}
+
+
+#conversion {
+    
+    max-height: inherit;
+    background-color: rgba(0,0,0,.7) !important;
+    color: rgba(255,255,255,1) !important;
+    height: 247px;
+    text-align: center;
+    
+}
+
+
+#km_to_mi  {
+    
+    opacity: .9 !important;
+    height: 30%;
+    background-color:  rgb(57,255,20) ;
+    color: rgba(0,0,0,1) ;
+    
+}
+
+body{
+    background-color: black;
+}
+
+.green{
+    color: rgb(57,255,20) !important;
+}
+
+.invert{
+    
+    background-color: black !important;
+    color: white !important;
+}
+
+#mi_to_km {
+    
+    opacity: .9 !important;
+    height: 30%;
+    background-color:  rgb(57,255,20) ;
+    color: rgba(0,0,0,1) ;
+  
+}
+
+
+input::placeholder { 
+    
+  color: white !important;
+  opacity: 1 !important; 
+}
+
+#result {
+    
+    background-color: rgba(0,0,0,.7) !important;
+    color: rgba(255,255,255,1) !important;
+    height: 200px;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+    max-height: 39.65%;
+    font-size: 19px !important;
+    vertical-align: bottom;
+    text-align: center;
+    
+}
+
