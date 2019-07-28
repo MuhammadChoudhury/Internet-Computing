@@ -1,0 +1,71 @@
+.overtlay{
+    
+    background-image:url("./img/picRulers.jpg") !important;
+}
+
+
+#conversion {
+    
+    max-height: inherit;
+    background-color: rgba(0,0,0,.7) !important;
+    color: rgba(255,255,255,1) !important;
+    height: 247px;
+    text-align: center;
+    
+}
+
+.invert{
+    
+    background-color: black !important;
+    color: white !important;
+}
+
+body{
+    background-color: black;
+}
+
+.green{
+    color: rgb(57,255,20) !important; 
+}
+
+input::placeholder { 
+    
+  color: white !important;
+  opacity: 1 !important; 
+}
+
+
+#cm_to_in {
+    
+    opacity: .9 !important;
+    height: 30%;
+    background-color:  rgb(57,255,20)  ;
+    color: rgba(0,0,0,1) ;
+    
+}
+
+
+#in_to_cm {
+    
+    opacity: .9 !important;
+    height: 30%;
+    background-color:  rgb(57,255,20) ;
+    color: rgba(0,0,0,1) ;
+
+}
+
+#result {
+    
+    background-color: rgba(0,0,0,.7) !important;
+    color: rgba(255,255,255,1) !important;    
+    opacity: .9 !important;
+    height: 200px;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+    max-height: 39.65%;
+    font-size: 19px !important;
+    vertical-align: bottom;
+    text-align: center;
+    
+}
+
